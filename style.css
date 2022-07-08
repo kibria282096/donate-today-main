@@ -1,0 +1,91 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+h1{
+    font-size: 40px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient( orange , tomato);
+    padding: 10px 40px;
+    color: white;
+    font: bold;
+    border-radius: 5px;
+
+}
+.ft{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-family: 'Kaushan Script', cursive;
+}
+.abc{
+    background-repeat: no-repeat;
+}
+.donate-today{
+    text-align: center;
+   
+}
+.tk{
+    display: flex;
+}
+
+.child-box-1 {
+    padding: 0;
+    margin: 10;
+    background: red;
+    width: 32%;
+    height: 40px;
+    margin: 1%;
+}
+
+.child-box-2 {
+    padding: 0;
+    margin: 10;
+    background: yellow;
+    width: 32%;
+    height: 40px;
+    margin: 1%;
+}
+
+.child-box-3 {
+    padding: 0;
+    margin: 10;
+    background: black;
+    width: 32%;
+    height: 40px;
+    margin: 1%;
+  
+}
+.child-box-4 {
+    padding: 0;
+    margin: 10;
+    background: black;
+    width: 32%;
+    height: 40px;
+    margin: 1%;
+  
+}.child-box-5 {
+    
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 2px;
+    padding-right: -2px;
+    margin: 10;
+    background: black;
+    width: 32%;
+    height: 40px;
+    margin: 1%;
+  
+}
