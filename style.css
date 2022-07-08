@@ -6,6 +6,10 @@
 h1{
     font-size: 40px;
 }
+p{
+    color: grey;
+    text-align: inline;
+}
 
 .center {
     position: absolute;
@@ -15,11 +19,12 @@ h1{
 }
 .button{
     text-decoration: none;
-    background-image: linear-gradient( orange , tomato);
+    background-color: tomato;
     padding: 10px 40px;
     color: white;
     font: bold;
     border-radius: 5px;
+    margin: 0%;
 
 }
 .ft{
@@ -36,56 +41,74 @@ h1{
 .donate-today{
     text-align: center;
    
+   
 }
-.tk{
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex-container > div {
+    
+    background-color: whitesmoke;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+.color:hover{
+    background-color: tomato;
+}
+.donte-area{
     display: flex;
 }
+.food-for-family{
+    background-color: aquamarine;
+    width: 20%;
+    margin-left: 1%;
+    padding-left: 10px;
+    border-radius: 5px;
 
-.child-box-1 {
-    padding: 0;
-    margin: 10;
-    background: red;
-    width: 32%;
-    height: 40px;
-    margin: 1%;
 }
+.shelter-for-family{
+    background-color: antiquewhite;
+    width: 20%;
+    margin-left: 1%;
+    padding-left: 10px;
+    border-radius: 5px;
+   
+}
+.education-for-child{
+    background-color: azure;
+    width: 20%;
+    margin-left: 1%;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.flex-cont{
+    display: flex;
+    margin-bottom: 150px;
+    justify-content: center;
+}
+.half-width{
+    width: 500px;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 400px;
 
-.child-box-2 {
-    padding: 0;
-    margin: 10;
-    background: yellow;
-    width: 32%;
-    height: 40px;
-    margin: 1%;
 }
-
-.child-box-3 {
-    padding: 0;
-    margin: 10;
-    background: black;
-    width: 32%;
-    height: 40px;
-    margin: 1%;
-  
-}
-.child-box-4 {
-    padding: 0;
-    margin: 10;
-    background: black;
-    width: 32%;
-    height: 40px;
-    margin: 1%;
-  
-}.child-box-5 {
+.my-Div {
+    background-color: whitesmoke;
+    width: 500px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    margin-left: 35%;
     
-    padding-bottom: 40px;
-    padding-top: 40px;
-    padding-left: 2px;
-    padding-right: -2px;
-    margin: 10;
-    background: black;
-    width: 32%;
-    height: 40px;
-    margin: 1%;
-  
-}
+  }
